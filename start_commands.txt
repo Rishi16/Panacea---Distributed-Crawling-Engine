@@ -1,0 +1,7 @@
+cmd c:\python36\python manage.py runserver 192.168.4.233:8000
+rabbitmq-server start
+rabbitmq-server install
+rabbitmq-server stop
+c:\python36\scripts\celery -A panacea worker -l info -P eventlet
+c:\python36\scripts\celery -A panacea worker -l info -P eventlet -n worker1 --loglevel=INFO -f E:\Harsh\django_projects\panacea\tasks.logs --heartbeat-interval 0
+c:\python36\scripts\celery -A panacea beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler

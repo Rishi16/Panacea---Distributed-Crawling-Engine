@@ -1,0 +1,629 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>My Batches - Panacea</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static "crawl/assets/css/bootstrap.css" %}" rel="stylesheet">
+    <!--external css-->
+    <link href="{% static "crawl/assets/font-awesome/css/font-awesome.css" %}" rel="stylesheet" />
+        
+    <!-- Custom styles for this template -->
+    <link href="{% static "crawl/assets/css/style.css" %}" rel="stylesheet">
+    <link href="{% static "crawl/assets/css/style-responsive.css" %}" rel="stylesheet">
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  <section id="container" >
+      <!-- **********************************************************************************************************************************************************
+      TOP BAR CONTENT & NOTIFICATIONS
+      *********************************************************************************************************************************************************** -->
+      <!--header start-->
+      <header class="header black-bg">
+              <div class="sidebar-toggle-box">
+                  <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+              </div>
+            <!--logo start-->
+            <a href="." class="logo"><b>Panacea Crawling Monitor</b></a>
+            <!--logo end-->
+            <div class="nav notify-row" id="top_menu">
+                <!--  notification start -->
+                <ul class="nav top-menu">
+                    <!-- settings start -->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+                            <i class="fa fa-tasks"></i>
+                            <span class="badge bg-theme">4</span>
+                        </a>
+                        <ul class="dropdown-menu extended tasks-bar">
+                            <div class="notify-arrow notify-arrow-green"></div>
+                            <li>
+                                <p class="green">You have 4 pending tasks</p>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <div class="task-info">
+                                        <div class="desc">DashGum Admin Panel</div>
+                                        <div class="percent">40%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <div class="task-info">
+                                        <div class="desc">Database Update</div>
+                                        <div class="percent">60%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (warning)</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <div class="task-info">
+                                        <div class="desc">Product Development</div>
+                                        <div class="percent">80%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Complete</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <div class="task-info">
+                                        <div class="desc">Payments Sent</div>
+                                        <div class="percent">70%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                            <span class="sr-only">70% Complete (Important)</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="external">
+                                <a href="#">See All Tasks</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- settings end -->
+                    <!-- inbox dropdown start-->
+                    <li id="header_inbox_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+                            <i class="fa fa-envelope-o"></i>
+                            <span class="badge bg-theme">5</span>
+                        </a>
+                        <ul class="dropdown-menu extended inbox">
+                            <div class="notify-arrow notify-arrow-green"></div>
+                            <li>
+                                <p class="green">You have 5 new messages</p>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <span class="photo"><img alt="avatar" src="{% static "crawl/assets/img/ui-zac.jpg" %}"></span>
+                                    <span class="subject">
+                                    <span class="from">Zac Snider</span>
+                                    <span class="time">Just now</span>
+                                    </span>
+                                    <span class="message">
+                                        Hi mate, how is everything?
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <span class="photo"><img alt="avatar" src="{% static "crawl/assets/img/ui-divya.jpg" %}"></span>
+                                    <span class="subject">
+                                    <span class="from">Divya Manian</span>
+                                    <span class="time">40 mins.</span>
+                                    </span>
+                                    <span class="message">
+                                     Hi, I need your help with this.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <span class="photo"><img alt="avatar" src="{% static "crawl/assets/img/ui-danro.jpg" %}"></span>
+                                    <span class="subject">
+                                    <span class="from">Dan Rogers</span>
+                                    <span class="time">2 hrs.</span>
+                                    </span>
+                                    <span class="message">
+                                        Love your new Dashboard.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <span class="photo"><img alt="avatar" src="{% static "crawl/assets/img/ui-sherman.jpg" %}"></span>
+                                    <span class="subject">
+                                    <span class="from">Dj Sherman</span>
+                                    <span class="time">4 hrs.</span>
+                                    </span>
+                                    <span class="message">
+                                        Please, answer asap.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">See all messages</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- inbox dropdown end -->
+                </ul>
+                <!--  notification end -->
+            </div>
+            <div class="top-menu">
+            	<ul class="nav pull-right top-menu">
+                    <li><a class="logout" href="/crawl">Logout</a></li>
+            	</ul>
+            </div>
+        </header>
+      <!--header end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN SIDEBAR MENU
+      *********************************************************************************************************************************************************** -->
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu" id="nav-accordion">
+              
+              	  <p class="centered"><a href="profile.html"><img src="{% static "crawl/assets/img/ui-sam.jpg" %}" class="img-circle" width="60"></a></p>
+              	  <h5 class="centered">{{username}}</h5>
+              	  	
+                  <li class="mt">
+                      <a href="/crawl/dashboard">
+                          <i class="fa fa-dashboard"></i>
+                          <span>Dashboard</span>
+                      </a>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-desktop"></i>
+                          <span>Server Monitor</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="/crawl/add_server">Add Server</a></li>
+                          <li><a  href="general.html">My Servers</a></li>
+                          <li><a  href="buttons.html">Team's Servers</a></li>
+                          <li><a  href="panels.html">Server Performance</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-book"></i>
+                          <span>Components</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="calendar.html">Calendar</a></li>
+                          <li><a  href="gallery.html">Gallery</a></li>
+                          <li><a  href="todo_list.html">Todo List</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a class="active"  href="javascript:;" >
+                          <i class="fa fa-cogs"></i>
+                          <span>Batch Management</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="/crawl/new">Create New Batch</a></li>
+                          <li class="active"><a  href="/crawl/mybatches">My Batches</a></li>
+                          <li><a  href="lock_screen.html">Team's Batches</a></li>
+                      </ul>
+                  </li>
+				  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-paper-plane"></i>
+                          <span>Script Management</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="/crawl/script">Upload New Script</a></li>
+                          <li><a  href="/crawl/myscripts">My Scripts</a></li>
+                          <li><a  href="lock_screen.html">Team's Scripts</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-tasks"></i>
+                          <span>Forms</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="form_component.html">Form Components</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-th"></i>
+                          <span>Data Tables</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="basic_table.html">Basic Table</a></li>
+                          <li><a  href="responsive_table.html">Responsive Table</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class=" fa fa-bar-chart-o"></i>
+                          <span>Charts</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="morris.html">Morris</a></li>
+                          <li><a  href="chartjs.html">Chartjs</a></li>
+                      </ul>
+                  </li>
+
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT
+      *********************************************************************************************************************************************************** -->
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper">
+              <div class="row mt">
+                  <div class="col-md-12">
+                      <div class="content-panel" style="padding: 20px">
+					  <table id="table_id" class="display table table-striped table-advance table-hover" style="font-family: 'Ruda', sans-serif;">
+						<thead>
+							<tr>
+								<th><i class="fa fa-shield"></i> Proxy</th>
+								<th><i class="fa fa-globe"></i> Total Hits</th>
+                                <th><i class="fa fa-check-square"></i> Successful Hits</th>
+                                <th><i class="fa fa-ban"></i> Failed Hits</th>
+                                <th><i class="fa fa-percent"></i> <b>%</b> Failure Rate</th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							{% for item in db_batch_query_results %}
+								<tr> 
+									<td id="batch_id_{{ item.batch_id }}" class="batch_id"><a href="/crawl/{{ item.batch_id }}">{{ item.proxy }}</a></td>
+                                    <td id="batch_name_{{ item.batch_id }}" class="batch_name"><a href="/crawl/{{ item.batch_id }}">{{ item.total }}</a></td>
+                                    <td id="batch_creation_date_{{ item.batch_id }}" class="batch_creation_date">{{ item.success }}</td>
+                                    <td id="batch_scheduled_date_{{ item.batch_id }}" class="batch_scheduled_date">{{ item.failed }}</td>
+                                    <td id="failurerate" class="batch_scheduled_date">{{ item.failurerate }}%</td>
+
+										<!--<td id="batch_status_{{ item.batch_id }}" class="batch_status"><span class="{{ item.color_tag }}">{{ item.status }}</span></td>-->
+										<!--<td id="batch_input_count_{{ item.batch_id }}" class="batch_input_count">{{ item.input_count }}</td>-->
+										<!--<td id="batch_completion_{{ item.batch_id }}" class="batch_completion">{{ item.completion }}</td>-->
+										<!--<td id="batch_completion_found_{{ item.batch_id }}" class="batch_completion_found">{{ item.completion_found }}</td>-->
+								</tr>
+								{% endfor %}
+						</tbody>
+					</table>
+                      </div><!-- /content-panel -->
+                  </div><!-- /col-md-12 -->
+              </div><!-- /row -->
+
+
+		</section><! --/wrapper -->
+      </section><!-- /MAIN CONTENT -->
+
+      <!--main content end-->
+      <!--footer start-->
+      <footer class="site-footer">
+          <div class="text-center">
+              Developer - Harsh Dubey
+              <a href="basic_table.html#" class="go-top">
+                  <i class="fa fa-angle-up"></i>
+              </a>
+          </div>
+      </footer>
+      <!--footer end-->
+  </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="{% static "crawl/assets/js/jquery.js" %}"></script>
+    <script src="{% static "crawl/assets/js/bootstrap.min.js" %}"></script>
+    <script class="include" type="text/javascript" src="{% static "crawl/assets/js/jquery.dcjqaccordion.2.7.js" %}"></script>
+    <script src="{% static "crawl/assets/js/jquery.scrollTo.min.js" %}"></script>
+    <script src="{% static "crawl/assets/js/jquery.nicescroll.js" %}" type="text/javascript"></script>
+
+
+    <!--common script for all pages-->
+    <script src="{% static "crawl/assets/js/common-scripts.js" %}"></script>
+	<script type="text/javascript" src="{% static "crawl/assets/js/gritter/js/jquery.gritter.js" %}"></script>
+    <script type="text/javascript" src="{% static "crawl/assets/js/gritter-conf.js" %}"></script>
+	<link rel="stylesheet" type="text/css" href="{% static "crawl/assets/DataTables/datatables.css" %}"/>
+	<script type="text/javascript" src="{% static "crawl/assets/DataTables/datatables.js" %}"></script>
+
+
+    <!--script for this page-->
+
+		<script type="text/javascript">
+        function edit_batch() {
+        var unique_id = $.gritter.add({
+            // (string | mandatory) the heading of the notification
+            title: 'Edit',
+            // (string | mandatory) the text inside the notification
+            text: 'You are about to edit this batch.',
+            // (bool | optional) if you want it to fade out on its own or just sit there
+            sticky: false,
+            // (int | optional) the time you want it to be alive for before fading out
+            time: '',
+            // (string | optional) the class name you want to apply to that specific message
+            class_name: 'my-sticky-class'
+        });
+        return false;
+        }
+		function pause_batch() {
+
+		$.getJSON('/crawl/change_batch_status/{{batch_data.id}}/paused',
+                    function (data) {
+                        var json = data["data"];
+                    });
+		//<button id="pause_batch" class="btn btn-primary btn-xs" style="font-size: 120%; margin:5px" onclick="pause_batch()"><i class="fa fa-pause"> Pause</i></button>
+		$("#pause_batch").find('i').removeClass("fa fa-pause").addClass("fa fa-play");
+		$('#pause_batch').find('i').html(" Resume");
+		$("#pause_batch").attr("onclick","resume_batch()");
+
+
+        var unique_id = $.gritter.add({
+            // (string | mandatory) the heading of the notification
+            title: 'Pause',
+            // (string | mandatory) the text inside the notification
+            text: 'You are about to pause this batch.',
+            // (bool | optional) if you want it to fade out on its own or just sit there
+            sticky: false,
+            // (int | optional) the time you want it to be alive for before fading out
+            time: '',
+            // (string | optional) the class name you want to apply to that specific message
+            class_name: 'my-sticky-class'
+        });
+        return false;
+        }
+		function resume_batch() {
+
+		$.getJSON('/crawl/change_batch_status/{{batch_data.id}}/resumed',
+                    function (data) {
+                        var json = data["data"];
+                    });
+		//<button id="pause_batch" class="btn btn-primary btn-xs" style="font-size: 120%; margin:5px" onclick="pause_batch()"><i class="fa fa-pause"> Pause</i></button>
+		$("#pause_batch").find('i').removeClass("fa fa-play").addClass("fa fa-pause");
+		$('#pause_batch').find('i').html(" Pause");
+		$("#pause_batch").attr("onclick","pause_batch()");
+
+
+        var unique_id = $.gritter.add({
+            // (string | mandatory) the heading of the notification
+            title: 'Pause',
+            // (string | mandatory) the text inside the notification
+            text: 'You are about to pause this batch.',
+            // (bool | optional) if you want it to fade out on its own or just sit there
+            sticky: false,
+            // (int | optional) the time you want it to be alive for before fading out
+            time: '',
+            // (string | optional) the class name you want to apply to that specific message
+            class_name: 'my-sticky-class'
+        });
+        return false;
+        }
+		function stop_batch() {
+        var unique_id = $.gritter.add({
+            // (string | mandatory) the heading of the notification
+            title: 'Stop',
+            // (string | mandatory) the text inside the notification
+            text: 'You are about to stop this batch.',
+            // (bool | optional) if you want it to fade out on its own or just sit there
+            sticky: false,
+            // (int | optional) the time you want it to be alive for before fading out
+            time: '',
+            // (string | optional) the class name you want to apply to that specific message
+            class_name: 'my-sticky-class'
+        });
+        return false;
+        }
+		function delete_batch(batch_id) {
+        		$.getJSON('/crawl/delete_batch/' + String(batch_id),
+                    function (data) {
+                        var json = data["data"];
+						$('#batch_id_'+String(batch_id)).parent().remove();
+						var unique_id = $.gritter.add({
+						// (string | mandatory) the heading of the notification
+						title: 'Batch deleted successfully',
+						// (string | mandatory) the text inside the notification
+						text: 'Please wait...!',
+						// (bool | optional) if you want it to fade out on its own or just sit there
+						sticky: false,
+						// (int | optional) the time you want it to be alive for before fading out
+						time: '',
+						// (string | optional) the class name you want to apply to that specific message
+						class_name: 'my-sticky-class'
+						});
+                    });
+	    }
+
+	</script>
+
+
+	<script type="application/javascript">
+	$(document).ready(function () {
+	$('#table_id').DataTable({
+        "order": [[ 0, "desc" ]],
+        "pageLength":25
+    });
+	setTimeout(function(){
+    //do what you need here
+	setInterval(run_background, 5000);
+	}, 3000);
+
+	});
+
+	function run_background(){
+		update_status_data();
+	}
+	
+	//increase_val=true;
+	
+	function update_status_data(){
+		$.getJSON('/crawl/update_mybatches_status',
+                    function (data) {
+						var json = data["data"];
+						$('.batch_id').each(function(){
+							var id = $(this).attr('id');
+							id_no = id.replace("batch_id_", "");
+							for (i = 0; i < json.length; i++) {
+								if (String(id_no) == String(json[i]["batch_id"])) {
+									$('#'+String(id)).find('a').html(String(json[i]["batch_id"]));
+								}
+							}
+						});
+						
+						$('.batch_name').each(function(){
+							var id = $(this).attr('id');
+							id_no = id.replace("batch_name_", "");
+							for (i = 0; i < json.length; i++) {
+								if (String(id_no) == String(json[i]["batch_id"])) {
+									$('#'+String(id)).find('a').html(String(json[i]["batch_name"]));
+								}
+							}
+						});
+						
+						function formatdate(date, datetime=true) {
+							const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+							var creation_date = new Date(String(date));
+							//creation_date = new Date(creation_date).toDateString("yyyy-MM-dd HH:MM");
+							var month = monthNames[creation_date.getMonth()]
+							var year = creation_date.getFullYear();
+							var day = creation_date.getDate();
+							if (datetime){
+								var hour = creation_date.getHours();
+								var hours = creation_date.getHours();
+								var minutes = creation_date.getMinutes();
+								var ampm = hours >= 12 ? 'p.m.' : 'a.m.';
+								hours = hours % 12;
+								hours = hours ? hours : 12; // the hour '0' should be '12'
+								minutes = minutes < 10 ? '0'+minutes : minutes;
+								var strTime = month + '. ' + day + ', ' + year + ', ' + hours + ':' + minutes + ' ' + ampm;
+								return strTime;
+							}
+							else{
+								var strTime = month + ' ' + day + ', ' + year;
+								return strTime;
+							}
+						}
+						
+						function formattime(time) {
+							const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+							var time_val = new Date(String(time));
+							var hours = time_val.getHours();
+							var minutes = time_val.getMinutes();
+							var ampm = hours >= 12 ? 'p.m.' : 'a.m.';
+							hours = hours % 12;
+							hours = hours ? hours : 12; // the hour '0' should be '12'
+							minutes = minutes < 10 ? '0'+minutes : minutes;
+							var strTime = hours + ':' + minutes + ' ' + ampm;
+							return strTime;
+						}
+						
+						$('.batch_creation_date').each(function(){
+							var id = $(this).attr('id');
+							id_no = id.replace("batch_creation_date_", "");
+							for (i = 0; i < json.length; i++) {
+								if (String(id_no) == String(json[i]["batch_id"])) {
+									//var creation_date = new Date(String(json[i]["creation_date"]));
+									$('#'+String(id)).html(String(formatdate(json[i]["creation_date"])));
+								}
+							}
+						});
+						
+						$('.batch_scheduled_date').each(function(){
+							var id = $(this).attr('id');
+							id_no = id.replace("batch_scheduled_date_", "");
+							for (i = 0; i < json.length; i++) {
+								if (String(id_no) == String(json[i]["batch_id"])) {
+									//var scheduled_date = new Date(String(json[i]["scheduled_date"]));
+									var scheduled_date = String(json[i]["scheduled_date"]) + ' ' + String(json[i]["scheduled_time"]);
+									$('#'+String(id)).html(String(formatdate(scheduled_date)));
+								}
+							}
+						});
+						
+						$('.batch_status').each(function(){
+							var id = $(this).attr('id');
+							id_no = id.replace("batch_status_", "");
+							for (i = 0; i < json.length; i++) {
+								if (String(id_no) == String(json[i]["batch_id"])) {
+									var class_value = $('#'+String(id)).find('span').attr('class');
+									//$('#'+String(id)).find('span').addClass(String(json[i]["color_tag"])).removeClass(String(class_value));
+									$('#'+String(id)).find('span').toggleClass(String(json[i]["color_tag"]) + ' ' + String(class_value));
+									$('#'+String(id)).find('span').html(String(json[i]["status"]));
+								}
+							}
+						});
+						
+						$('.batch_input_count').each(function(){
+							var id = $(this).attr('id');
+							id_no = id.replace("batch_input_count_", "");
+							for (i = 0; i < json.length; i++) {
+								if (String(id_no) == String(json[i]["batch_id"])) {
+									$('#'+String(id)).html(String(json[i]["input_count"]));
+								}
+							}
+						});
+						
+						$('.batch_completion').each(function(){
+							var id = $(this).attr('id');
+							id_no = id.replace("batch_completion_", "");
+							for (i = 0; i < json.length; i++) {
+								if (String(id_no) == String(json[i]["batch_id"])) {
+									$('#'+String(id)).html(String(json[i]["completion"]));
+								}
+							}
+						});
+						
+						$('.batch_completion_found').each(function(){
+							var id = $(this).attr('id');
+							id_no = id.replace("batch_completion_found_", "");
+							for (i = 0; i < json.length; i++) {
+								if (String(id_no) == String(json[i]["batch_id"])) {
+									$('#'+String(id)).html(String(json[i]["completion_found"]));
+								}
+							}
+						});
+						
+                    });
+	}
+	
+	
+  </script>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,676 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Create new batch - Panacea</title>
+
+	<link href="{% static "crawl/assets/date_time_picker/DateTimePicker.css" %}" rel="stylesheet" type="text/css">
+	<!-- Bootstrap core CSS -->
+    <link href="{% static "crawl/assets/css/bootstrap.css" %}" rel="stylesheet">
+    <!--external css-->
+    <link href="{% static "crawl/assets/font-awesome/css/font-awesome.css" %}" rel="stylesheet" />
+        
+    <!-- Custom styles for this template -->
+    <link href="{% static "crawl/assets/css/style.css" %}" rel="stylesheet">
+    <link href="{% static "crawl/assets/css/style-responsive.css" %}" rel="stylesheet">
+	
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  
+
+  <section id="container" >
+      <!-- **********************************************************************************************************************************************************
+      TOP BAR CONTENT & NOTIFICATIONS
+      *********************************************************************************************************************************************************** -->
+      <!--header start-->
+      <header class="header black-bg">
+              <div class="sidebar-toggle-box">
+                  <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+              </div>
+            <!--logo start-->
+            <a href="index.html" class="logo"><b>Panacea Crawling Monitor</b></a>
+            <!--logo end-->
+            <div class="nav notify-row" id="top_menu">
+                <!--  notification start -->
+                <ul class="nav top-menu">
+                    <!-- settings start -->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+                            <i class="fa fa-tasks"></i>
+                            <span class="badge bg-theme">4</span>
+                        </a>
+                        <ul class="dropdown-menu extended tasks-bar">
+                            <div class="notify-arrow notify-arrow-green"></div>
+                            <li>
+                                <p class="green">You have 4 pending tasks</p>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <div class="task-info">
+                                        <div class="desc">DashGum Admin Panel</div>
+                                        <div class="percent">40%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <div class="task-info">
+                                        <div class="desc">Database Update</div>
+                                        <div class="percent">60%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (warning)</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <div class="task-info">
+                                        <div class="desc">Product Development</div>
+                                        <div class="percent">80%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Complete</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <div class="task-info">
+                                        <div class="desc">Payments Sent</div>
+                                        <div class="percent">70%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                            <span class="sr-only">70% Complete (Important)</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="external">
+                                <a href="#">See All Tasks</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- settings end -->
+                    <!-- inbox dropdown start-->
+                    <li id="header_inbox_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+                            <i class="fa fa-envelope-o"></i>
+                            <span class="badge bg-theme">5</span>
+                        </a>
+                        <ul class="dropdown-menu extended inbox">
+                            <div class="notify-arrow notify-arrow-green"></div>
+                            <li>
+                                <p class="green">You have 5 new messages</p>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <span class="photo"><img alt="avatar" src="{% static "crawl/assets/img/ui-zac.jpg" %}"></span>
+                                    <span class="subject">
+                                    <span class="from">Zac Snider</span>
+                                    <span class="time">Just now</span>
+                                    </span>
+                                    <span class="message">
+                                        Hi mate, how is everything?
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <span class="photo"><img alt="avatar" src="{% static "crawl/assets/img/ui-divya.jpg" %}"></span>
+                                    <span class="subject">
+                                    <span class="from">Divya Manian</span>
+                                    <span class="time">40 mins.</span>
+                                    </span>
+                                    <span class="message">
+                                     Hi, I need your help with this.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <span class="photo"><img alt="avatar" src="{% static "crawl/assets/img/ui-danro.jpg" %}"></span>
+                                    <span class="subject">
+                                    <span class="from">Dan Rogers</span>
+                                    <span class="time">2 hrs.</span>
+                                    </span>
+                                    <span class="message">
+                                        Love your new Dashboard.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">
+                                    <span class="photo"><img alt="avatar" src="{% static "crawl/assets/img/ui-sherman.jpg" %}"></span>
+                                    <span class="subject">
+                                    <span class="from">Dj Sherman</span>
+                                    <span class="time">4 hrs.</span>
+                                    </span>
+                                    <span class="message">
+                                        Please, answer asap.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html#">See all messages</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- inbox dropdown end -->
+                </ul>
+                <!--  notification end -->
+            </div>
+            <div class="top-menu">
+            	<ul class="nav pull-right top-menu">
+                    <li><a class="logout" href="/crawl">Logout</a></li>
+            	</ul>
+            </div>
+        </header>
+      <!--header end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN SIDEBAR MENU
+      *********************************************************************************************************************************************************** -->
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu" id="nav-accordion">
+              
+              	  <p class="centered"><a href="profile.html"><img src="{% static "crawl/assets/img/ui-sam.jpg" %}" class="img-circle" width="60"></a></p>
+              	  <h5 class="centered">Harsh Dubey</h5>
+              	  	
+                  <li class="mt">
+                      <a href="./dashboard">
+                          <i class="fa fa-dashboard"></i>
+                          <span>Dashboard</span>
+                      </a>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-desktop"></i>
+                          <span>Server Monitor</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="/crawl/add_server">Add Server</a></li>
+                          <li><a  href="general.html">My Servers</a></li>
+                          <li><a  href="buttons.html">Team's Servers</a></li>
+                          <li><a  href="panels.html">Server Performance</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-book"></i>
+                          <span>Components</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="calendar.html">Calendar</a></li>
+                          <li><a  href="gallery.html">Gallery</a></li>
+                          <li><a  href="todo_list.html">Todo List</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a class="active" href="javascript:;" >
+                          <i class="fa fa-cogs"></i>
+                          <span>Batch Management</span>
+                      </a>
+                      <ul class="sub">
+                          <li class="active"><a  href="/crawl/new">Create New Batch</a></li>
+                          <li><a  href="/crawl/mybatches">My Batches</a></li>
+                          <li><a  href="lock_screen.html">Team's Batches</a></li>
+                      </ul>
+                  </li>
+				  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-paper-plane"></i>
+                          <span>Script Management</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="/crawl/script">Upload New Script</a></li>
+                          <li><a  href="/crawl/myscripts">My Scripts</a></li>
+                          <li><a  href="lock_screen.html">Team's Scripts</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-tasks"></i>
+                          <span>Forms</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="form_component.html">Form Components</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-th"></i>
+                          <span>Data Tables</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="basic_table.html">Basic Table</a></li>
+                          <li><a  href="responsive_table.html">Responsive Table</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class=" fa fa-bar-chart-o"></i>
+                          <span>Charts</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="morris.html">Morris</a></li>
+                          <li><a  href="chartjs.html">Chartjs</a></li>
+                      </ul>
+                  </li>
+
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT
+      *********************************************************************************************************************************************************** -->
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper site-min-height">
+          	<h3><i class="fa fa-angle-right"></i> Create New Batch</h3>
+          	<div class="row mt">
+          		<div class="col-lg-12">
+          		<p>Place your content here.</p>
+          		</div>
+          	</div>
+			
+			<!-- BASIC FORM ELELEMNTS -->
+				<div class="row mt">
+					<div class="col-lg-12">
+					  <div class="form-panel">
+						  <h4 class="mb"><i class="fa fa-angle-right"></i> Properties for new batch</h4>
+						  <form class="form-horizontal style-form" method="POST" enctype="multipart/form-data">
+							{% csrf_token %}
+							{{ form.errors }}
+							{{ form.non_field_errors }}
+							<!--
+							  <div class="form-group">
+								  <label class="col-sm-2 col-sm-2 control-label">Username</label>
+								  <div class="col-sm-10">
+									  <input type="text" class="form-control" name="username" required>
+								  </div>
+							  </div>
+							  <div class="form-group">
+								  <label class="col-sm-2 col-sm-2 control-label">Password</label>
+								  <div class="col-sm-10">
+									  <input type="password"  class="form-control" placeholder="" name="password" required>
+								  </div>
+							  </div> -->
+							  <!--<input type="hidden" id="id_user_id" name="user_id" value="{{request.session.user_id}}">-->
+							  {{ form.user_id }} 
+							  {{ form.team }}
+							  <div class="form-group">
+								  <label class="col-sm-2 col-sm-2 control-label">Batch Name</label>
+								  <div class="col-sm-10">
+									  <!--<input type="text" class="form-control" name="batchName" required="" oninvalid="this.setCustomValidity('Please Enter the Batch name')" oninput="this.setCustomValidity('')">-->
+									  {{ form.batch_name }} 
+									  <span class="help-block">Please provide a unique name for this batch.</span>
+								  </div>
+							  </div>
+							  <div class="form-group">
+								  <label class="col-sm-2 col-sm-2 control-label">Region</label>
+								  <div class="col-sm-10">
+									  <!--<input type="text" class="form-control" name="batchName" required="" oninvalid="this.setCustomValidity('Please Enter the Batch name')" oninput="this.setCustomValidity('')">-->
+									  {{ form.region }} 
+									  <span class="help-block">This value is set to self.region</span>
+								  </div>
+							  </div>
+							  <div class="form-group">
+								  <label class="col-sm-2 col-sm-2 control-label">Input file</label>
+								  <div class="col-sm-10">
+									  {{ form.input_file }}
+									  <!--<input type="file" class="form-control" name="inputFile" required="" oninvalid="this.setCustomValidity('Please upload an input file')" oninput="this.setCustomValidity('')">-->
+									  <span class="help-block">Make sure the encoding is UTF8</span>
+								  </div>
+							  </div>
+							  <!--<div class="form-group">
+								  <label class="col-sm-2 col-sm-2 control-label">Script Name</label>
+								  <div class="col-sm-10">
+									  <input type="text" class="form-control" name="scriptName" required oninvalid="this.setCustomValidity('Please Enter the Script name')" oninput="this.setCustomValidity('')">
+									  <span class="help-block">Please provide the name of the script which will be executed.</span>
+								  </div>
+							  </div>-->
+							  <div class="form-group">
+								  <label class="col-sm-2 col-sm-2 control-label">Script Name</label>
+								  <div class="col-sm-10">
+									  <!--<select name="scriptName" class="form-control">
+									  <option>Lazada_ph</option>
+									  <option>Shopee_SG</option>
+									  <option>Shopee_MY</option>
+									  <option>Shopee_TH</option>
+									  <option>Shopee_ID</option>
+									  <option>Shopee_Google</option>
+									  <option>Shopee_batch_2</option>
+									  </select>-->
+									  {{ form.script_name }}
+									  <span class="help-block">Please select the name of the script which will be executed.</span>
+								  </div>
+							  </div>
+							  <!--{{ form.proxies_file_name }}
+							  {{ form.server_file_name }}-->
+							  
+							  <div class="form-group">
+								  <label class="col-sm-2 col-sm-2 control-label">Date</label>
+								  <div class="col-sm-10">
+										<div style="width: 50%; float: left;">
+										  <!--<input type="text" data-field="date" name="date" required="">-->
+										  {{ form.scheduled_date }}
+											<div id="dtBox"></div>
+											<script src="{% static "crawl/assets/date_time_picker/jquery-1.11.0.min.js" %}" type="text/javascript"></script>
+											<script src="{% static "crawl/assets/date_time_picker/DateTimePicker.js" %}" type="text/javascript"></script>
+											<script>var jQuery1110 = $.noConflict(true);</script>
+											<script type="text/javascript">
+												(function($){$(document).ready(function()
+													{
+														$("#dtBox").DateTimePicker({
+															dateFormat: "yyyy-mm-dd",
+															addEventHandlers: function()
+															{
+																var oDTP = this;
+															
+																oDTP.settings.minDate = oDTP.getDateTimeStringInFormat("Date", "yyyy-mm-dd", new Date());;
+															}
+														});
+													});})(jQuery1110);
+											</script>
+										</div>
+										<div style="width: 50%; float: left;">
+											<label class="col-sm-2 col-sm-2 control-label" style="margin-right: 28%;">Time</label>
+											<!--<input type="text" data-field="time" name="time" required="">-->
+											{{ form.scheduled_time }}
+											<div id="dtBox"></div>
+										</div>
+								  </div>
+							  </div>
+							  <div class="form-group">
+									  <label class="col-sm-2 col-sm-2 control-label">Frequency</label>
+									  <div class="col-sm-10">
+											{{ form.frequency }}
+											  <! -- BUTTONS NESTING -->
+													<div class="btn-group">
+													  <button type="button" class="btn btn-default active" id="freq_once" onclick="frequcy_toggle(freq_once)">Once</button>
+													  <button type="button" class="btn btn-default" id="freq_daily" onclick="frequcy_toggle(freq_daily)">Daily</button>
+													
+													  <div class="btn-group keep_dropdown">
+														<button type="button" class="btn btn-default dropdown-toggle" id="freq_week" data-toggle="dropdown">
+														  Weekly
+														  <span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu">
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_week_0" onclick="frequcy_toggle(freq_week_0)">Sunday</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_week_1" onclick="frequcy_toggle(freq_week_1)">Monday</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_week_2" onclick="frequcy_toggle(freq_week_2)">Tuesday</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_week_3" onclick="frequcy_toggle(freq_week_3)">Wednesday</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_week_4" onclick="frequcy_toggle(freq_week_4)">Thursday</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_week_5" onclick="frequcy_toggle(freq_week_5)">Friday</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_week_6" onclick="frequcy_toggle(freq_week_6)">Saturday</a></li>
+														</ul>
+													  </div>
+													  <div class="btn-group keep_dropdown">
+														<button type="button" class="btn btn-default dropdown-toggle" id="freq_month" data-toggle="dropdown">
+														  Monthly
+														  <span class="caret"></span>
+														</button>
+														<ul class="dropdown-menu">
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_month_1" onclick="frequcy_toggle(freq_month_1)">January</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_month_2" onclick="frequcy_toggle(freq_month_2)">February</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_month_3" onclick="frequcy_toggle(freq_month_3)">March</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_month_4" onclick="frequcy_toggle(freq_month_4)">April</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_month_5" onclick="frequcy_toggle(freq_month_5)">May</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_month_6" onclick="frequcy_toggle(freq_month_6)">June</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_month_7" onclick="frequcy_toggle(freq_month_7)">July</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_month_8" onclick="frequcy_toggle(freq_month_8)">August</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_month_9" onclick="frequcy_toggle(freq_month_9)">September</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_month_10" onclick="frequcy_toggle(freq_month_10)">October</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_month_11" onclick="frequcy_toggle(freq_month_11)">November</a></li>
+														  <li><a type="button" class="btn btn-default keep_button" id="freq_month_12" onclick="frequcy_toggle(freq_month_12)">December</a></li>
+														</ul>
+													  </div>
+													</div>
+									  </div>
+							  </div>
+							  <div class="form-group">
+								  <label class="col-sm-2 col-sm-2 control-label">Auto recrawl</label>
+								  <div class="col-sm-10">
+										  <div class="radio" style="width: 33%; float: left;">
+											<label class="radio-inline control-label">
+											  <input type="radio" id="amount_25" name="amount" value="1" checked="">
+											  No
+											</label>
+										  </div>
+										  <div class="radio" style="width: 33%; float: left;">
+											<label class="radio-inline control-label">
+											  <input type="radio" id="amount_50" name="amount" value="2">
+											  Daemon
+											</label>
+										  </div>
+										  <div style="width: 33%; float: left;">
+											  <div class="radio">
+											    <div style="width: 50%; float: left;">
+												<label class="radio-inline control-label">
+												  <input type="radio" id="amount_other" name="amount" value="3">
+												  Provide the number of:
+												</label>
+												</div>
+												<div style="width: 50%; float: left;">
+												<input placeholder="Iterations" type="text" class="form-control" id="amount_actual" name="amount_actual" maxlength="5" data-rule-required="true" contenteditable="false">
+												</div>
+											  </div>
+										  </div>
+								  </div>
+							  </div>
+							  <!--<div class="form-group">
+								  <label class="col-sm-2 col-sm-2 control-label">Rounder</label>
+								  <div class="col-sm-10">
+									  <input type="text" class="form-control round-form">
+								  </div>
+							  </div>
+							  <div class="form-group">
+								  <label class="col-sm-2 col-sm-2 control-label">Input focus</label>
+								  <div class="col-sm-10">
+									  <input class="form-control" id="focusedInput" type="text" value="This is focused...">
+								  </div>
+							  </div>
+							  <div class="form-group">
+								  <label class="col-sm-2 col-sm-2 control-label">Placeholder</label>
+								  <div class="col-sm-10">
+									  <input type="text"  class="form-control" placeholder="placeholder">
+								  </div>
+							  </div>-->
+							  <div class="form-group">
+								  <label class="col-sm-2 col-sm-2 control-label">Team</label>
+								  <div class="col-sm-10">
+									  <input class="form-control" id="disabledInput" type="text" placeholder="{{request.session.team}}" disabled>
+								  </div>
+							  </div>
+							  
+							  <div class="form-group">
+								  <label class="col-lg-2 col-sm-2 control-label">Email address</label>
+								  <div class="col-lg-10">
+									  <p class="form-control-static">{{request.session.email}}</p>
+								  </div>
+							  </div>
+							<button class="btn btn-theme btn-block" href="dashboard" type="submit"><i class="fa fa-rocket"></i> Create</button>
+						  </form>
+					  </div>
+					</div><!-- col-lg-12-->      	
+				</div><!-- /row -->
+		</section><! --/wrapper -->
+      </section><!-- /MAIN CONTENT -->
+
+      <!--main content end-->
+      <!--footer start-->
+      <footer class="site-footer">
+          <div class="text-center">
+              Developer - Harsh Dubey
+              <a href="blank.html#" class="go-top">
+                  <i class="fa fa-angle-up"></i>
+              </a>
+          </div>
+      </footer>
+      <!--footer end-->
+  </section>
+  
+
+    <!-- js placed at the end of the document so the pages load faster -->
+	<script src="{% static "crawl/assets/js/jquery.js" %}"></script>
+    <script src="{% static "crawl/assets/js/bootstrap.min.js" %}"></script>
+    <script src="{% static "crawl/assets/js/jquery-ui-1.9.2.custom.min.js" %}"></script>
+    <script src="{% static "crawl/assets/js/jquery.ui.touch-punch.min.js" %}"></script>
+    <script class="include" type="text/javascript" src="{% static "crawl/assets/js/jquery.dcjqaccordion.2.7.js" %}"></script>
+    <script src="{% static "crawl/assets/js/jquery.scrollTo.min.js" %}"></script>
+    <script src="{% static "crawl/assets/js/jquery.nicescroll.js" %}" type="text/javascript"></script>
+	
+	<!--script for this page-->
+    <script src="{% static "crawl/assets/js/jquery-ui-1.9.2.custom.min.js" %}"></script>
+
+	<!--custom switch-->
+	<script src="{% static "crawl/assets/js/bootstrap-switch.js" %}"></script>
+	
+	<!--custom tagsinput-->
+	<script src="{% static "crawl/assets/js/jquery.tagsinput.js" %}"></script>
+	
+	<!--custom checkbox & radio-->
+		
+	<script type="text/javascript" src="{% static "crawl/assets/js/bootstrap-inputmask/bootstrap-inputmask.min.js" %}"></script>
+	
+	
+	<script src="{% static "crawl/assets/js/form-component.js" %}"></script>
+
+
+    <!--common script for all pages-->
+    <script src="{% static "crawl/assets/js/common-scripts.js" %}"></script>
+
+    <!--script for this page-->
+    
+  <script>
+	var list_freq = [];
+      //custom select box
+		$('.keep_button').click(function(e) {
+			e.stopPropagation();
+		});
+	  function frequcy_toggle(buttn_val){
+		if ($(buttn_val).attr('id')=="freq_once"){
+			list_freq = [];
+			$("#freq_once").removeClass("active");
+			$("#freq_daily").removeClass("active");
+			$("#freq_week").removeClass("active");
+			$("#freq_month").removeClass("active");
+			for (var i = 1; i<=7; i++){
+				$("#freq_week_"+String(i)).removeClass("active");
+			}
+			for (var i = 1; i<=12; i++){
+				$("#freq_month_"+String(i)).removeClass("active");
+			}
+			
+			$(buttn_val).addClass("active");
+			//$("#frequency").attr("active");
+			
+			$("#frequency").val("-1");
+		}
+		else if ($(buttn_val).attr('id')=="freq_daily"){
+			list_freq = [];
+			$("#freq_once").removeClass("active");
+			$("#freq_daily").removeClass("active");
+			$("#freq_week").removeClass("active");
+			$("#freq_month").removeClass("active");
+			for (var i = 1; i<=7; i++){
+				$("#freq_week_"+String(i)).removeClass("active");
+			}
+			for (var i = 1; i<=12; i++){
+				$("#freq_month_"+String(i)).removeClass("active");
+			}
+			
+			$(buttn_val).addClass("active");
+			//$("#frequency").attr("active");
+			
+			$("#frequency").val("-2");
+		}
+		else if ($(buttn_val).attr('id').includes("freq_week")){
+			if (! $("#freq_week").hasClass("active")){
+				list_freq = [];
+			}
+			$("#freq_once").removeClass("active");
+			$("#freq_daily").removeClass("active");
+			$("#freq_month").removeClass("active");
+			for (var i = 1; i<=12; i++){
+				$("#freq_month_"+String(i)).removeClass("active");
+			}
+			if ($(buttn_val).hasClass("active")){
+				$(buttn_val).removeClass("active");}
+			else{
+				$(buttn_val).addClass("active");}
+			
+			$("#freq_week").addClass("active");
+			if (! list_freq.includes($(buttn_val).attr('id').split("_")[2])){
+				list_freq.push($(buttn_val).attr('id').split("_")[2]);
+			}
+			else{
+				list_freq.splice(list_freq.indexOf($(buttn_val).attr('id').split("_")[2]), 1);
+			}
+			
+			$("#frequency").val("-3|" + String(list_freq));
+		}
+		else if ($(buttn_val).attr('id').includes("freq_month")){
+			if (! $("#freq_month").hasClass("active")){
+				list_freq = [];
+			}
+			$("#freq_once").removeClass("active");
+			$("#freq_daily").removeClass("active");
+			$("#freq_week").removeClass("active");
+			for (var i = 1; i<=7; i++){
+				$("#freq_week_"+String(i)).removeClass("active");
+			}
+			if ($(buttn_val).hasClass("active")){
+				$(buttn_val).removeClass("active");}
+			else{
+				$(buttn_val).addClass("active");}
+			$("#freq_month").addClass("active");
+			
+			if (! list_freq.includes($(buttn_val).attr('id').split("_")[2])){
+				list_freq.push($(buttn_val).attr('id').split("_")[2]);
+			}
+			else{
+				list_freq.splice(list_freq.indexOf($(buttn_val).attr('id').split("_")[2]), 1);
+			}
+			
+			$("#frequency").val("-4|" + String(list_freq));
+		}
+	  }
+
+
+  </script>
+
+  </body>
+</html>

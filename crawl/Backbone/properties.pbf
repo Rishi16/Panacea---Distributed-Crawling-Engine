@@ -1,0 +1,9 @@
+master_server=ecxus323
+team_data=files/team_data.pbf
+team_data_to_stop=files/team_data_to_stop.pbf
+total_values_in_team_data=2
+main_loop_sleep=2
+start_crawl_sleep=2
+team_data_folder=Team_data
+main_file=files/main.py
+general_file=files/general.py

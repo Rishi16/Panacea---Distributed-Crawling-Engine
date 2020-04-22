@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>Period Range - Minimum Date Today</title>
+		<link href="{% static "crawl/assets/css/bootstrap.css" %}" rel="stylesheet">
+    <!--external css-->
+    <link href="{% static "crawl/assets/font-awesome/css/font-awesome.css" %}" rel="stylesheet" />
+        
+    <!-- Custom styles for this template -->
+    <link href="{% static "crawl/assets/css/style.css" %}" rel="stylesheet">
+    <link href="{% static "crawl/assets/css/style-responsive.css" %}" rel="stylesheet">
+		<link href="{% static "crawl/assets/css/DateTimePicker.css" %}" rel="stylesheet" type="text/css">
+	<script src="{% static "crawl/assets/js/jquery-1.11.0.min.js" %}" type="text/javascript"></script>
+	<script src="{% static "crawl/assets/js/DateTimePicker.js" %}" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<input type="text" data-field="date" readonly>
+		<div id="dtBox"></div>
+		<script type="text/javascript">
+		
+			$(document).ready(function()
+			{
+				$("#dtBox").DateTimePicker({
+
+					dateFormat: "dd-MMM-yyyy",
+
+					addEventHandlers: function()
+					{
+						var oDTP = this;
+					
+						oDTP.settings.minDate = oDTP.getDateTimeStringInFormat("Date", "dd-MMM-yyyy", new Date());
+					}
+				
+				});
+			});
+
+		</script>
+	</body>
+<script src="{% static "crawl/assets/js/jquery.js" %}"></script>
+    <script src="{% static "crawl/assets/js/jquery.ui.touch-punch.min.js" %}"></script>
+    <script class="include" type="text/javascript" src="{% static "crawl/assets/js/jquery.dcjqaccordion.2.7.js" %}"></script>
+    <script src="{% static "crawl/assets/js/jquery.scrollTo.min.js" %}"></script>
+    <script src="{% static "crawl/assets/js/jquery.nicescroll.js" %}" type="text/javascript"></script>
+</html>

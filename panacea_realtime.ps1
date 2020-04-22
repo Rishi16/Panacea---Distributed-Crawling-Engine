@@ -1,0 +1,2 @@
+Get-WmiObject Win32_Process -Filter "name = 'python.exe'" | Where-Object {$_.CommandLine -match  "celery"} | foreach-object { $_.SetPriority(256) }
+Get-WmiObject Win32_Process -Filter "name = 'python.exe'" | Where-Object {$_.CommandLine -match  "runserver"} | foreach-object { $_.SetPriority(256) }

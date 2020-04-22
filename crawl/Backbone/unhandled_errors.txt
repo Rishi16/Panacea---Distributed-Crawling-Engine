@@ -1,0 +1,64 @@
+name 'os' is not defined - test_batch - Lazada_product_matching
+name 'os' is not defined - test_batch - Lazada_product_matching
+name 'os' is not defined - test_batch - Lazada_product_matching
+name 'os' is not defined - test_batch - Lazada_product_matching
+name 'os' is not defined - test_batch - Lazada_product_matching
+name 'os' is not defined - test_batch - Lazada_product_matching
+name 'os' is not defined - test_batch - Lazada_product_matching
+name 'os' is not defined - test_batch - Lazada_product_matching
+name 'os' is not defined - test_batch - Lazada_product_matching
+name 'os' is not defined - test_batch - Lazada_product_matching
+name 'os' is not defined - test_batch - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS108\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_US_prod\\crawling_status.pbf' - Farnell_US_prod - Lazada_product_matching
+[Errno 22] Invalid argument: '\\\\ECXUS095\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_US_prod\\crawling_status.pbf' - Farnell_US_prod - Lazada_product_matching
+[Errno 22] Invalid argument: '\\\\ECXUS095\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_US_prod\\crawling_status.pbf' - Farnell_US_prod - Lazada_product_matching
+[Errno 22] Invalid argument: '\\\\ECXUS095\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_US_prod\\crawling_status.pbf' - Farnell_US_prod - Lazada_product_matching
+[Errno 22] Invalid argument: '\\\\ECXUS095\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_AU_prod\\crawling_status.pbf' - Farnell_AU_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS179\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS354\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS108\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS357\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS131\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_SE_prod\\crawling_status.pbf' - Farnell_SE_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS233\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS324\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_US_prod\\crawling_status.pbf' - Farnell_US_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS208\\e$\\Panacea\\Team_data\\Lazada_product_matching\\test_batch\\crawling_status.pbf' - test_batch - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS164\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_AU_prod\\crawling_status.pbf' - Farnell_AU_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS338\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_AU_prod\\crawling_status.pbf' - Farnell_AU_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS179\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_AU_prod\\crawling_status.pbf' - Farnell_AU_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS179\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_AU_prod\\crawling_status.pbf' - Farnell_AU_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS338\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS339\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS348\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS165\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS165\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 22] Invalid argument: '\\\\ECXUS095\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 22] Invalid argument: '\\\\ECXUS095\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 22] Invalid argument: '\\\\ECXUS095\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 22] Invalid argument: '\\\\ECXUS095\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 22] Invalid argument: '\\\\ECXUS095\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 22] Invalid argument: '\\\\ECXUS095\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 22] Invalid argument: '\\\\ECXUS095\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 22] Invalid argument: '\\\\ECXUS095\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS179\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_DE_prod\\crawling_status.pbf' - Farnell_DE_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS095\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS108\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS348\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS164\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_PH_prod\\crawling_status.pbf' - Farnell_PH_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS165\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS336\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS095\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_PH_prod\\crawling_status.pbf' - Farnell_PH_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS108\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS095\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS336\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS165\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_PH_prod\\crawling_status.pbf' - Farnell_PH_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS049\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS104\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS179\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS164\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS165\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_PH_prod\\crawling_status.pbf' - Farnell_PH_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS110\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS164\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_PH_prod\\crawling_status.pbf' - Farnell_PH_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS164\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS095\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS325\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_IT_prod\\crawling_status.pbf' - Farnell_IT_prod - Lazada_product_matching
+[Errno 2] No such file or directory: '\\\\ECXUS339\\e$\\Panacea\\Team_data\\Lazada_product_matching\\Farnell_PH_prod\\crawling_status.pbf' - Farnell_PH_prod - Lazada_product_matching
